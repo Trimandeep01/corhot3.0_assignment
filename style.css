@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #EAE0D5;
+}
+.logo{
+    color: rgb(255, 85, 0);
+    font-size: 80px;
+ 
+}
+.future{
+    color: #4E3524;
+    font-size: 20px;
+    font-family: Neo-Grotesque Sans-Serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.top{
+  color: #4E3524;
+  font-size: 35px;
+  font-family: Neo-Grotesque Sans-Serif;
+  
+
+}
+.mid{
+    color: #4E3524;
+  font-size: 35px;
+  font-family: Neo-Grotesque Sans-Serif;
+ 
+    
+}
+.bottom{
+     color: #94847a;
+  font-size: 35px;
+  font-family: Neo-Grotesque Sans-Serif;
+  
+}
+.foot{
+     color: #4E3524;
+  font-size: 35px;
+  font-family: Neo-Grotesque Sans-Serif;
+  
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+  
+}
+
+.parent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 13%;
+    
+ 
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+}
+.foottext{
+    color:#4E3524;
+  font-size: 25px;
+  font-family: Neo-Grotesque Sans-Serif;
+  display: flex;
+  padding-right: 6.2%;
+  gap: 5px;
+  
+}
+.foottext1{
+    color:#4E3524;
+  font-size: 25px;
+  font-family: Neo-Grotesque Sans-Serif;
+   display: flex;
+  padding-right: 2.4%;
+  
+
+}
+.footpara{
+    color:#4E3524;
+  font-size: 9px;
+  font-family: Neo-Grotesque Sans-Serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5%;
+
+}
+.color{
+    color:  #94847a;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100vh;
+    width:59%;
+    padding-bottom: 30px;
+    gap: 5px;
+    
+}
+.product{
+    color:#4E3524;
+  font-size: 20px;
+  font-family: Neo-Grotesque Sans-Serif;
+    position: absolute;
+    top: 50%;
+  padding-top: 1%;
+
+
+}
+.image{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    
+    gap: 40px;
+    padding-top: 2%;
+    
+    
+
+}
+.image1{
+    
+    border-radius: 10%;
+    height: 350px;
+    width:300px;
+    
+
+
+    object-fit: cover;
+    background-image: url("Screenshot 2026-05-09 121347.JPG");
+}
+.image2{
+    
+    border-radius: 10%;
+    height: 350px;
+    width:300px;
+    
+
+
+    object-fit: cover;
+    background-image: url("Gemini_Generated_Image_e99pxle99pxle99p (1) (1).jpg");
+}
+.image3{
+    
+    border-radius: 10%;
+    height: 350px;
+    width:300px;
+    
+
+
+    object-fit: cover;
+    background-image: url("Gemini_Generated_Image_e99pxle99pxle99p (1).jpg");
+}
